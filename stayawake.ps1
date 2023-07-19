@@ -1,6 +1,6 @@
-﻿$valid_number = $false
-
-while(-not $valid_number)
+cls
+$validNumber = $false
+while(-not $validNumber)
 {
     try{
         $input = Read-Host -Prompt 'Insert time in hours'
@@ -12,11 +12,11 @@ while(-not $valid_number)
         if(($time -le 0) -or ($input -le 0)){
             throw "Negative input"
             }
-        $valid_number = $true
-        echo ""
+        $validNumber = $true
     }
     catch{
-        echo "`n--- Please insert a valid number. ---`n"
+        cls
+        echo "--- Please insert a valid number. ---`n"
     }
 }
 
@@ -31,6 +31,7 @@ try{
             $zero = "0"
         }
 
+        cls
         echo "staying awake for ${hours}h ${zero}${minutes}m"
 
         for ($k=1; $k -le 10; $k++) {
@@ -39,8 +40,10 @@ try{
         }
     }
 }
+
 finally{
-    $CurrentTime = Get-Date -format "t"
-    echo "`n`nScript stopped running at $CurrentTime"
+    $currentTime = Get-Date -Format "t"
+    cls
+    echo "Script stopped running at $CurrentTime"
     Read-Host -Prompt "`nPress Enter to exit"
 }
