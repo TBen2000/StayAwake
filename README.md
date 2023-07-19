@@ -7,3 +7,6 @@ Also, it just runs on Windows machines.
 To use it, simply download "stayawake.ps1". Then right click and select "Run with PowerShell".
 
 ![Screenshot](screenshot.png)
+
+> **Warning**
+> Especially in a work environment, it makes sense for a computer to lock itself after a certain time. This script bypasses this security feature. Be aware that people with physical access could harm your company or your private network.
