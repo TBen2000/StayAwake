@@ -44,7 +44,7 @@ try{
 finally{
     $currentTime = Get-Date -Format "t"
     cls
-    echo "Script stopped running at $CurrentTime"
+    echo "Script stopped running at $currentTime"
     Read-Host -Prompt "`nPress Enter to exit"
     exit
 }
