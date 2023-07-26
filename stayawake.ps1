@@ -46,4 +46,5 @@ finally{
     cls
     echo "Script stopped running at $CurrentTime"
     Read-Host -Prompt "`nPress Enter to exit"
+    exit
 }
