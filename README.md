@@ -10,7 +10,7 @@ To use it, simply download "stayawake.ps1". Then right click and select "Run wit
 
 _Alternatively_, the following command can be executed in Windows PowerShell. This loads the script directly from GitHub and executes it without storing it long-term on the computer.
 ```
-. { iwr -useb https://raw.githubusercontent.com/TBen2000/StayAwake/main/stayawake.ps1 } | iex; install
+. { iwr -useb https://raw.githubusercontent.com/TBen2000/StayAwake/main/stayawake.ps1 } | iex
 ```
 
 &nbsp;
