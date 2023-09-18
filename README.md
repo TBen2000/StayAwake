@@ -3,7 +3,8 @@ This script keeps your computer from sleeping and keeps you active on apps like 
 
 This script does not require any installation or admin rights. Also, it just runs on Windows machines.
 
-To use it, simply download "stayawake.ps1". Then right click and select "Run with PowerShell".
+### Usage
+To use it, simply download [stayawake.ps1](https://github.com/TBen2000/StayAwake/). Then right click and select "Run with PowerShell".
 
 ![screenshot](https://github.com/TBen2000/StayAwake/assets/59891192/a219788e-01ab-42c6-824e-0bfd8cb4f40a)
 
