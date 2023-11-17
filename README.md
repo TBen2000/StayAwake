@@ -15,5 +15,5 @@ _Alternatively_, the following command can be executed in Windows PowerShell. Th
 ```
 
 &nbsp;
-> **Warning**\
+> [!WARNING]
 > Especially in a work environment, it makes sense for a computer to lock itself after a certain time. This script bypasses this security feature. Be aware that people with physical access could harm your company or your private network.
